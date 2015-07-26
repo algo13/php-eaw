@@ -24,5 +24,10 @@ The default width of the `East Asian Ambiguous` of `mb_east_asian_width()` funct
 require_once 'php-eaw/src/mb_east_asian_width.php';
 ```
 
+## See Also
+* [EAST ASIAN WIDTH](http://www.unicode.org/reports/tr11/)
+* [EastAsianWidth.txt](http://www.unicode.org/Public/UCD/latest/ucd/EastAsianWidth.txt)
+
+
 ## License
 php-eaw is licensed under the MIT license.

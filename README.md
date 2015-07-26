@@ -2,8 +2,9 @@
 East Asian Width for PHP 5.3 or above.
 
 
-The width of the East Asian Ambiguous of `mb_strwidth()` function is 1.
-The default width of the East Asian Ambiguous of `mb_east_asian_width()` function is 2.
+The width of the `East Asian Ambiguous` of `mb_strwidth()` function is 1.
+
+The default width of the `East Asian Ambiguous` of `mb_east_asian_width()` function is 2.
 
 ## Features
 * `src/mb_east_asian_width.inc.php`

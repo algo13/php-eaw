@@ -89,20 +89,29 @@ require_once 'php-eaw/src/mb_east_asian_width.inc.php';
 
 $string = '☆★※○●◎';
 
-// mb_eaw_names.function.php
-print_r(mb_eaw_names($string)).PHP_EOL;
-
-// mb_eaw_strwidth.function.php
-print_r(mb_eaw_strwidth_array($string));
+echo 'mb_eaw_strwidth.function.php'.PHP_EOL;
 echo mb_eaw_strwidth($string).PHP_EOL;
 
-// mb_eaw_str_pad.function.php
+echo 'mb_eaw_str_pad.function.php'.PHP_EOL;
 echo mb_eaw_str_pad($string, 10, '@').PHP_EOL;
 
-// mb_eaw_strimwidth.function.php
+echo 'mb_eaw_strimwidth.function.php'.PHP_EOL;
 echo mb_eaw_strimwidth($string, 0, 10, ' ..').PHP_EOL;
 ```
 
+Result
+
+```
+>php sample.php
+mb_eaw_strwidth.function.php
+12
+mb_eaw_str_pad.function.php
+☆★※○●◎
+mb_eaw_strimwidth.function.php
+☆★※ ..
+
+>
+```
 
 ## See Also
 * [EAST ASIAN WIDTH](http://www.unicode.org/reports/tr11/)

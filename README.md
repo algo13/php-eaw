@@ -8,14 +8,19 @@ The default width of the `East Asian Ambiguous` of `mb_east_asian_width()` funct
 
 ## Features(East Asian Width functions)
 
-| basic      | mbstring       | eaw                                    |
-| ---------- | -------------- | -------------------------------------- |
-| ---        | ---            | mb_eaw_names                           |
-| ---        | mb_strwidth*   | mb_eaw_strwidth(mb_eaw_strwidth_array) |
-| ---        | mb_strimwidth* | mb_eaw_strimwidth                      |
-| str_pad*   | mb_str_pad     | mb_eaw_str_pad                         |
-| ---        | mb_wrap        | mb_eaw_wrap                            |
-| str_split* | mb_str_split   | ---                                    |
+| basic          | mbstring             | East Asian Width functions              |
+| -------------- | -------------------- | --------------------------------------- |
+| ---            | ---                  | mb_eaw_names                            |
+| ---            | [mb_strwidth][3]     | mb_eaw_strwidth (mb_eaw_strwidth_array) |
+| ---            | [mb_strimwidth][4]   | mb_eaw_strimwidth                       |
+| [str_pad][1]   | mb_str_pad (Bonus)   | mb_eaw_str_pad                          |
+| ---            | mb_wrap (Bonus)      | mb_eaw_wrap                             |
+| [str_split][2] | mb_str_split (Bonus) | ---                                     |
+
+[1]: http://php.net/manual/function.str-pad.php
+[2]: http://php.net/manual/function.str-split.php
+[3]: http://php.net/manual/function.mb-strwidth.php
+[4]: http://php.net/manual/function.mb-strimwidth.php
 
 
 * `src/mb_east_asian_width.inc.php`
